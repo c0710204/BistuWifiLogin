@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		809FEB13171ECCC1002FF38A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 809FEB12171ECCC1002FF38A /* UIKit.framework */; };
+		809FEB15171ECCC1002FF38A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 809FEB14171ECCC1002FF38A /* Foundation.framework */; };
+		809FEB17171ECCC1002FF38A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 809FEB16171ECCC1002FF38A /* CoreGraphics.framework */; };
+		809FEB1D171ECCC1002FF38A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 809FEB1B171ECCC1002FF38A /* InfoPlist.strings */; };
+		809FEB1F171ECCC1002FF38A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 809FEB1E171ECCC1002FF38A /* main.m */; };
+		809FEB23171ECCC1002FF38A /* BWLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 809FEB22171ECCC1002FF38A /* BWLAppDelegate.m */; };
+		809FEB25171ECCC1002FF38A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 809FEB24171ECCC1002FF38A /* Default.png */; };
+		809FEB27171ECCC1002FF38A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 809FEB26171ECCC1002FF38A /* Default@2x.png */; };
+		809FEB29171ECCC1002FF38A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 809FEB28171ECCC1002FF38A /* Default-568h@2x.png */; };
+		809FEB2C171ECCC1002FF38A /* BWLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 809FEB2B171ECCC1002FF38A /* BWLViewController.m */; };
+		809FEB2F171ECCC1002FF38A /* BWLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 809FEB2D171ECCC1002FF38A /* BWLViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		809FEB0F171ECCC1002FF38A /* BistuWifiLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BistuWifiLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		809FEB12171ECCC1002FF38A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		809FEB14171ECCC1002FF38A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		809FEB16171ECCC1002FF38A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		809FEB1A171ECCC1002FF38A /* BistuWifiLogin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BistuWifiLogin-Info.plist"; sourceTree = "<group>"; };
+		809FEB1C171ECCC1002FF38A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		809FEB1E171ECCC1002FF38A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		809FEB20171ECCC1002FF38A /* BistuWifiLogin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BistuWifiLogin-Prefix.pch"; sourceTree = "<group>"; };
+		809FEB21171ECCC1002FF38A /* BWLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWLAppDelegate.h; sourceTree = "<group>"; };
+		809FEB22171ECCC1002FF38A /* BWLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWLAppDelegate.m; sourceTree = "<group>"; };
+		809FEB24171ECCC1002FF38A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		809FEB26171ECCC1002FF38A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		809FEB28171ECCC1002FF38A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		809FEB2A171ECCC1002FF38A /* BWLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWLViewController.h; sourceTree = "<group>"; };
+		809FEB2B171ECCC1002FF38A /* BWLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWLViewController.m; sourceTree = "<group>"; };
+		809FEB2E171ECCC1002FF38A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BWLViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		809FEB0C171ECCC1002FF38A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				809FEB13171ECCC1002FF38A /* UIKit.framework in Frameworks */,
+				809FEB15171ECCC1002FF38A /* Foundation.framework in Frameworks */,
+				809FEB17171ECCC1002FF38A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		809FEB06171ECCC1002FF38A = {
+			isa = PBXGroup;
+			children = (
+				809FEB18171ECCC1002FF38A /* BistuWifiLogin */,
+				809FEB11171ECCC1002FF38A /* Frameworks */,
+				809FEB10171ECCC1002FF38A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		809FEB10171ECCC1002FF38A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				809FEB0F171ECCC1002FF38A /* BistuWifiLogin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		809FEB11171ECCC1002FF38A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				809FEB12171ECCC1002FF38A /* UIKit.framework */,
+				809FEB14171ECCC1002FF38A /* Foundation.framework */,
+				809FEB16171ECCC1002FF38A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		809FEB18171ECCC1002FF38A /* BistuWifiLogin */ = {
+			isa = PBXGroup;
+			children = (
+				809FEB21171ECCC1002FF38A /* BWLAppDelegate.h */,
+				809FEB22171ECCC1002FF38A /* BWLAppDelegate.m */,
+				809FEB2A171ECCC1002FF38A /* BWLViewController.h */,
+				809FEB2B171ECCC1002FF38A /* BWLViewController.m */,
+				809FEB2D171ECCC1002FF38A /* BWLViewController.xib */,
+				809FEB19171ECCC1002FF38A /* Supporting Files */,
+			);
+			path = BistuWifiLogin;
+			sourceTree = "<group>";
+		};
+		809FEB19171ECCC1002FF38A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				809FEB1A171ECCC1002FF38A /* BistuWifiLogin-Info.plist */,
+				809FEB1B171ECCC1002FF38A /* InfoPlist.strings */,
+				809FEB1E171ECCC1002FF38A /* main.m */,
+				809FEB20171ECCC1002FF38A /* BistuWifiLogin-Prefix.pch */,
+				809FEB24171ECCC1002FF38A /* Default.png */,
+				809FEB26171ECCC1002FF38A /* Default@2x.png */,
+				809FEB28171ECCC1002FF38A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		809FEB0E171ECCC1002FF38A /* BistuWifiLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 809FEB32171ECCC1002FF38A /* Build configuration list for PBXNativeTarget "BistuWifiLogin" */;
+			buildPhases = (
+				809FEB0B171ECCC1002FF38A /* Sources */,
+				809FEB0C171ECCC1002FF38A /* Frameworks */,
+				809FEB0D171ECCC1002FF38A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BistuWifiLogin;
+			productName = BistuWifiLogin;
+			productReference = 809FEB0F171ECCC1002FF38A /* BistuWifiLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		809FEB07171ECCC1002FF38A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BWL;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = mobiledev;
+			};
+			buildConfigurationList = 809FEB0A171ECCC1002FF38A /* Build configuration list for PBXProject "BistuWifiLogin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 809FEB06171ECCC1002FF38A;
+			productRefGroup = 809FEB10171ECCC1002FF38A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				809FEB0E171ECCC1002FF38A /* BistuWifiLogin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		809FEB0D171ECCC1002FF38A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				809FEB1D171ECCC1002FF38A /* InfoPlist.strings in Resources */,
+				809FEB25171ECCC1002FF38A /* Default.png in Resources */,
+				809FEB27171ECCC1002FF38A /* Default@2x.png in Resources */,
+				809FEB29171ECCC1002FF38A /* Default-568h@2x.png in Resources */,
+				809FEB2F171ECCC1002FF38A /* BWLViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		809FEB0B171ECCC1002FF38A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				809FEB1F171ECCC1002FF38A /* main.m in Sources */,
+				809FEB23171ECCC1002FF38A /* BWLAppDelegate.m in Sources */,
+				809FEB2C171ECCC1002FF38A /* BWLViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		809FEB1B171ECCC1002FF38A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				809FEB1C171ECCC1002FF38A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		809FEB2D171ECCC1002FF38A /* BWLViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				809FEB2E171ECCC1002FF38A /* en */,
+			);
+			name = BWLViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		809FEB30171ECCC1002FF38A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		809FEB31171ECCC1002FF38A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		809FEB33171ECCC1002FF38A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BistuWifiLogin/BistuWifiLogin-Prefix.pch";
+				INFOPLIST_FILE = "BistuWifiLogin/BistuWifiLogin-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		809FEB34171ECCC1002FF38A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BistuWifiLogin/BistuWifiLogin-Prefix.pch";
+				INFOPLIST_FILE = "BistuWifiLogin/BistuWifiLogin-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		809FEB0A171ECCC1002FF38A /* Build configuration list for PBXProject "BistuWifiLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				809FEB30171ECCC1002FF38A /* Debug */,
+				809FEB31171ECCC1002FF38A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		809FEB32171ECCC1002FF38A /* Build configuration list for PBXNativeTarget "BistuWifiLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				809FEB33171ECCC1002FF38A /* Debug */,
+				809FEB34171ECCC1002FF38A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 809FEB07171ECCC1002FF38A /* Project object */;
+}
