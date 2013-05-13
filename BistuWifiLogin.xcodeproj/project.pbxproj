@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		188641B8172F8C73008412A3 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 188641B7172F8C73008412A3 /* Settings.bundle */; };
+		801E1885171FA5DC0061FAA3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 801E1884171FA5DC0061FAA3 /* SystemConfiguration.framework */; };
 		809FEB13171ECCC1002FF38A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 809FEB12171ECCC1002FF38A /* UIKit.framework */; };
 		809FEB15171ECCC1002FF38A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 809FEB14171ECCC1002FF38A /* Foundation.framework */; };
 		809FEB17171ECCC1002FF38A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 809FEB16171ECCC1002FF38A /* CoreGraphics.framework */; };
@@ -21,7 +23,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		809FEB0F171ECCC1002FF38A /* BistuWifiLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BistuWifiLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		188641B7172F8C73008412A3 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		801E1884171FA5DC0061FAA3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		809FEB0F171ECCC1002FF38A /* 北信科wifi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "北信科wifi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		809FEB12171ECCC1002FF38A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		809FEB14171ECCC1002FF38A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		809FEB16171ECCC1002FF38A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -44,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				801E1885171FA5DC0061FAA3 /* SystemConfiguration.framework in Frameworks */,
 				809FEB13171ECCC1002FF38A /* UIKit.framework in Frameworks */,
 				809FEB15171ECCC1002FF38A /* Foundation.framework in Frameworks */,
 				809FEB17171ECCC1002FF38A /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +61,7 @@
 		809FEB06171ECCC1002FF38A = {
 			isa = PBXGroup;
 			children = (
+				801E1884171FA5DC0061FAA3 /* SystemConfiguration.framework */,
 				809FEB18171ECCC1002FF38A /* BistuWifiLogin */,
 				809FEB11171ECCC1002FF38A /* Frameworks */,
 				809FEB10171ECCC1002FF38A /* Products */,
@@ -65,7 +71,7 @@
 		809FEB10171ECCC1002FF38A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				809FEB0F171ECCC1002FF38A /* BistuWifiLogin.app */,
+				809FEB0F171ECCC1002FF38A /* 北信科wifi.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,6 +95,7 @@
 				809FEB2B171ECCC1002FF38A /* BWLViewController.m */,
 				809FEB2D171ECCC1002FF38A /* BWLViewController.xib */,
 				809FEB19171ECCC1002FF38A /* Supporting Files */,
+				188641B7172F8C73008412A3 /* Settings.bundle */,
 			);
 			path = BistuWifiLogin;
 			sourceTree = "<group>";
@@ -110,9 +117,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		809FEB0E171ECCC1002FF38A /* BistuWifiLogin */ = {
+		809FEB0E171ECCC1002FF38A /* 北信科wifi */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 809FEB32171ECCC1002FF38A /* Build configuration list for PBXNativeTarget "BistuWifiLogin" */;
+			buildConfigurationList = 809FEB32171ECCC1002FF38A /* Build configuration list for PBXNativeTarget "北信科wifi" */;
 			buildPhases = (
 				809FEB0B171ECCC1002FF38A /* Sources */,
 				809FEB0C171ECCC1002FF38A /* Frameworks */,
@@ -122,9 +129,9 @@
 			);
 			dependencies = (
 			);
-			name = BistuWifiLogin;
+			name = "北信科wifi";
 			productName = BistuWifiLogin;
-			productReference = 809FEB0F171ECCC1002FF38A /* BistuWifiLogin.app */;
+			productReference = 809FEB0F171ECCC1002FF38A /* 北信科wifi.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -149,7 +156,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				809FEB0E171ECCC1002FF38A /* BistuWifiLogin */,
+				809FEB0E171ECCC1002FF38A /* 北信科wifi */,
 			);
 		};
 /* End PBXProject section */
@@ -164,6 +171,7 @@
 				809FEB27171ECCC1002FF38A /* Default@2x.png in Resources */,
 				809FEB29171ECCC1002FF38A /* Default-568h@2x.png in Resources */,
 				809FEB2F171ECCC1002FF38A /* BWLViewController.xib in Resources */,
+				188641B8172F8C73008412A3 /* Settings.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,10 +267,14 @@
 		809FEB33171ECCC1002FF38A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: 翔 顾 (T7J2KWEYF3)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BistuWifiLogin/BistuWifiLogin-Prefix.pch";
 				INFOPLIST_FILE = "BistuWifiLogin/BistuWifiLogin-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "97DC111F-D118-4B43-BF2C-7E9271CBF964";
+				VALID_ARCHS = "armv7 armv7s armv6";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -270,10 +282,13 @@
 		809FEB34171ECCC1002FF38A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: 翔 顾 (T7J2KWEYF3)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BistuWifiLogin/BistuWifiLogin-Prefix.pch";
 				INFOPLIST_FILE = "BistuWifiLogin/BistuWifiLogin-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "E87A7430-187E-4FB5-9D18-A4038FC94B03";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -290,13 +305,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		809FEB32171ECCC1002FF38A /* Build configuration list for PBXNativeTarget "BistuWifiLogin" */ = {
+		809FEB32171ECCC1002FF38A /* Build configuration list for PBXNativeTarget "北信科wifi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				809FEB33171ECCC1002FF38A /* Debug */,
 				809FEB34171ECCC1002FF38A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
