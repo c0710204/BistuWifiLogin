@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		188336811740B7A00071E2B6 /* Untitled-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 188336801740B7A00071E2B6 /* Untitled-1.png */; };
+		188336831740BA510071E2B6 /* 57.png in Resources */ = {isa = PBXBuildFile; fileRef = 188336821740BA510071E2B6 /* 57.png */; };
 		188641B8172F8C73008412A3 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 188641B7172F8C73008412A3 /* Settings.bundle */; };
 		801E1885171FA5DC0061FAA3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 801E1884171FA5DC0061FAA3 /* SystemConfiguration.framework */; };
 		809FEB13171ECCC1002FF38A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 809FEB12171ECCC1002FF38A /* UIKit.framework */; };
@@ -23,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		188336801740B7A00071E2B6 /* Untitled-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Untitled-1.png"; sourceTree = "<group>"; };
+		188336821740BA510071E2B6 /* 57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 57.png; sourceTree = "<group>"; };
 		188641B7172F8C73008412A3 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		801E1884171FA5DC0061FAA3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		809FEB0F171ECCC1002FF38A /* 北信科wifi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "北信科wifi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,6 +65,8 @@
 		809FEB06171ECCC1002FF38A = {
 			isa = PBXGroup;
 			children = (
+				188336821740BA510071E2B6 /* 57.png */,
+				188336801740B7A00071E2B6 /* Untitled-1.png */,
 				801E1884171FA5DC0061FAA3 /* SystemConfiguration.framework */,
 				809FEB18171ECCC1002FF38A /* BistuWifiLogin */,
 				809FEB11171ECCC1002FF38A /* Frameworks */,
@@ -172,6 +178,8 @@
 				809FEB29171ECCC1002FF38A /* Default-568h@2x.png in Resources */,
 				809FEB2F171ECCC1002FF38A /* BWLViewController.xib in Resources */,
 				188641B8172F8C73008412A3 /* Settings.bundle in Resources */,
+				188336811740B7A00071E2B6 /* Untitled-1.png in Resources */,
+				188336831740BA510071E2B6 /* 57.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,13 +275,14 @@
 		809FEB33171ECCC1002FF38A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: 翔 顾 (T7J2KWEYF3)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Xiang Gu";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BistuWifiLogin/BistuWifiLogin-Prefix.pch";
 				INFOPLIST_FILE = "BistuWifiLogin/BistuWifiLogin-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "97DC111F-D118-4B43-BF2C-7E9271CBF964";
+				PROVISIONING_PROFILE = "6BF3ABEC-A871-4BF1-80D0-17E821ACC06B";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "armv7 armv7s armv6";
 				WRAPPER_EXTENSION = app;
 			};
@@ -282,13 +291,16 @@
 		809FEB34171ECCC1002FF38A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: 翔 顾 (T7J2KWEYF3)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Xiang Gu";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Xiang Gu";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BistuWifiLogin/BistuWifiLogin-Prefix.pch";
 				INFOPLIST_FILE = "BistuWifiLogin/BistuWifiLogin-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "E87A7430-187E-4FB5-9D18-A4038FC94B03";
+				PROVISIONING_PROFILE = "6BF3ABEC-A871-4BF1-80D0-17E821ACC06B";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6BF3ABEC-A871-4BF1-80D0-17E821ACC06B";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
